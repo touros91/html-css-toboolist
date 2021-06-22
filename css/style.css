@@ -25,7 +25,6 @@ header {
 /* stile logo  */
 
 .logo {
-
     display: inline-block;
     vertical-align: middle;
 }
@@ -81,7 +80,6 @@ main {
 /* secondo contenitore principale */
 
 .main-container-bottom {
-    height: 600px;
     width: 80%;
     background-color: white;
     color: #444851;
