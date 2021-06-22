@@ -78,9 +78,10 @@ main {
     border: 1px solid #D3D8DC;
 }
 
+/* secondo contenitore principale */
 
-.main-container-bottom{
-    height: 800px;
+.main-container-bottom {
+    height: 600px;
     width: 80%;
     background-color: white;
     color: #444851;
@@ -88,22 +89,71 @@ main {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-top: 5px;
-    padding: 40px 0 15px 66px;
+    padding: 40px 0 15px 50px;
 }
 
-li{
+ul {
     list-style: none;
+    margin-bottom: 35px;
 }
 
-.news {
-    padding-left: 20px;
+li {
+    margin-bottom: 20px;
+}
+
+/* stile entities  */
+
+.simbolo {
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 8px;
 }
 
 .spunta {
     color: lightgreen;
     border: 1px solid lightgreen;
-    border-radius: 75%;
-    padding: 4px;
-    font-size: 15px;
 }
 
+.cross-mark {
+    color: red;
+    border: 1px solid red;
+}
+
+/* stile etichette  */
+
+.etichette {
+    font-size: 10px;
+    color: white;
+    width: 55px;
+    height: 20px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+}
+
+/* colori etichette  */
+
+.editorial {
+    background-color: #47ADF1;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B2CA2A;
+}
