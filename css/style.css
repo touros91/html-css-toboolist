@@ -77,3 +77,33 @@ main {
     width: 100px;
     border: 1px solid #D3D8DC;
 }
+
+
+.main-container-bottom{
+    height: 800px;
+    width: 80%;
+    background-color: white;
+    color: #444851;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 5px;
+    padding: 40px 0 15px 66px;
+}
+
+li{
+    list-style: none;
+}
+
+.news {
+    padding-left: 20px;
+}
+
+.spunta {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 75%;
+    padding: 4px;
+    font-size: 15px;
+}
+
