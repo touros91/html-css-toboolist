@@ -1,5 +1,32 @@
+/* formattazione base pagina  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* colore sfondo body  */
+body {
+    background-color: #F6F8F9;
+}
+
+/* header  */
+header {
+    background-color: white;
+    padding: 10px;
+    height: 70px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+/* stile logo  */
+.logo {
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.scritta-logo {
+    display: inline-block;
+    vertical-align: middle;
 }
