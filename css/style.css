@@ -48,8 +48,8 @@ main {
     background-color: white;
     margin: auto;
     padding: 20px 0 15px 50px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* stile buttons  */
@@ -81,13 +81,14 @@ main {
 
 .main-container-bottom {
     width: 80%;
+    height: 600px;
     background-color: white;
     color: #444851;
     margin: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     margin-top: 5px;
     padding: 40px 0 15px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 ul {
